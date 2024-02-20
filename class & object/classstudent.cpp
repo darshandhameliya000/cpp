@@ -18,17 +18,12 @@ class student
     {
         cout<<"enter the adminno:-";
         cin>>admno;
-        cout<<"enter the name:-";
-        cin>>sname;
-        cout<<"enter the eng marks:-";
-        cin>>eng;
-        cout<<"enter the math marks:--";
+        
         cin>>math;
         cout<<"enter the science marks:-";
         cin>>science;
         total=ctotal();
     }
-
     void showdata()
     {
         cout<<"\n\nshowdata"<<endl;
