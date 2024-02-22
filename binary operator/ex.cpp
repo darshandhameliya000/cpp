@@ -11,13 +11,14 @@ class Complex
     }
     Complex(int a,int b)
     {
-        x=a;
-        y=b;
+       x=a;
+       y=b;
     }
     void display()
     {
         cout<<"the real part:- "<<x<<endl;
         cout<<"the imaginary part:- "<<y<<endl;
+        cout<<"sum is :- "<<x+y<<endl;
     }
     Complex operator+(Complex c)
     {
@@ -27,7 +28,6 @@ class Complex
         return temp;
     }
 };
-
 int main()
 {
     Complex c1,c2,c3;
@@ -37,7 +37,7 @@ int main()
     c1.display();
     cout<<"the second input:- "<<endl;
     c2.display();
-    cout<<"the output  is:- "<< endl;
+    cout<<"the output is:- "<< endl;
     c3=c1+c2;
     c3.display();
     return 0;
