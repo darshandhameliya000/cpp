@@ -46,7 +46,4 @@ int main()
     dd.totaldata();
     
     return 0;
-
-
-    
 }
