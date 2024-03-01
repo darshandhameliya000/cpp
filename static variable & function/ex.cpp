@@ -1,4 +1,5 @@
 #include<iostream> 
+
 using namespace std; 
  
 class Employee 
@@ -30,13 +31,13 @@ int main()
     parth.printdata(); 
     parth.employeecount(); 
  
-    // darshan.setdata(); 
-    // darshan.printdata(); 
-    // darshan.employeecount(); 
+    darshan.setdata(); 
+    darshan.printdata(); 
+    darshan.employeecount(); 
  
-    // vivek.setdata(); 
-    // vivek.printdata(); 
-    // vivek.employeecount(); 
-    // return 0; 
+    vivek.setdata(); 
+    vivek.printdata(); 
+    vivek.employeecount(); 
+    return 0; 
  
 }
