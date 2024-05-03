@@ -2,6 +2,7 @@
 using namespace std;
 class complex
 {
+    //private;
     int x,y;
     public:
     complex(int a ,int b)

@@ -15,12 +15,13 @@ class complex
         cout<<"data of a + b:- "<<x<<" + "<<y<<endl;
     }
     void displayyyy()
-    {
-        cout<<"sum of a:- "<<x<<endl;
+    { 
+        cout<<"sum of a:- "
+        <<x<<endl;
         cout<<"sum of b:- "<<y<<endl;
     }
 };
-complex sumnumber(complex o1, complex o2)
+complex sumnumber(complex o1,complex o2)
 {
     complex o3;
     o3.setdata((o1.x+o2.x),(o1.y+o2.y));

@@ -8,7 +8,7 @@ class base1
     void setnumber1(int x1)
     {
         a1=x1;
-    }
+    } 
 };
 class base2
 {

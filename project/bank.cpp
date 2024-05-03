@@ -1,8 +1,6 @@
 #include<iostream>
 using namespace std;
-
 int curbal;
-
 class bank
 {
     public:
@@ -43,6 +41,7 @@ class bank
     }
     void printoption()
     {
+        
         cout<<"\nSelect the No. to view The Details-------------->"<<endl;
         cout<<"\n1. Withdrawal "<<endl;
         cout<<"2. Deposite "<<endl;
@@ -63,7 +62,7 @@ int main()
     do
     {
         b.printoption();
-        cout<<"\n";
+        cout<<"\nenter your choice:-";
         cin>>choice;
         switch(choice)
         {
